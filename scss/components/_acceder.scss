@@ -1,0 +1,26 @@
+
+/* --------------------------Acceder------------------------ */
+
+.main-acceder {
+    height: 100vh;
+    background-image: url("../images/contacto/background.png.png");
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+    text-align: center;
+    h2 {
+      padding: 3rem;
+    }
+  }
+  
+  .container-main {
+    @include justify-content-center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 5rem;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+  
+}

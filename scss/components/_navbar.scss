@@ -1,0 +1,16 @@
+/* --------------------------Cursos------------------------ */
+
+.nav-link {
+    color:white;
+    &:hover {
+        animation-duration: 0.3s;
+        animation-name: hover;
+      }
+}
+
+  
+  @keyframes hover {
+    to {
+      transform: translateY(-10%);
+    }
+  }

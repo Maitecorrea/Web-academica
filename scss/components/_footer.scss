@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+}
+
+.footer__cursos {
+    bottom: -100px;
+}
+
+/* --------------------------Footer------------------------ */
+@media screen and (max-width: 1200px) {
+    .footer__cursos, .footer__comunidad {
+        bottom: -500px;
+    }
+
+    .footer__comunidad {
+        bottom: -300px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer__cursos {
+        bottom: -1200px;
+    }
+    .footer__comunidad {
+        bottom: -800px;
+    }
+    .footer__acceder {
+        bottom: -700px;
+    }
+    .footer__registrarse {
+        bottom: -150px;
+    }
+}

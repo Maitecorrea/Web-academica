@@ -1,0 +1,28 @@
+
+/* --------------------------Registrarse------------------------ */
+
+.background-registrarse {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url("../images/index/background.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container-background {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 3rem;
+  }
+  
+  .container-right__registrarse {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container-left__registrarse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

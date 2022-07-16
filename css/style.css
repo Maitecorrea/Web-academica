@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital@1&display=swap");
+/* --------------------------Cursos------------------------ */
+.main-cursos {
+  background-image: url("../images/contacto/background.png.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.text-1 {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 20%; }
+
+.text-2 {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 5%; }
+
+.container-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap; }
+
+.text-container {
+  background-image: url("../images/contacto/background.png.png");
+  width: 350px;
+  padding: 3rem; }
+
+/* --------------------------comunidad------------------------ */
+.main-comunidad {
+  background-image: url("../images/contacto/background.png.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.cards-comunidad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem;
+  gap: 1rem; }
+
+/* --------------------------Registrarse------------------------ */
+.background-registrarse {
+  height: 100vh;
+  /* width: 100vw; */
+  background-image: url("../images/index/background.png");
+  background-position: center;
+  background-size: cover; }
+
+.container-background {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 3rem; }
+
+.container-right__registrarse {
+  display: flex;
+  align-items: center; }
+
+.container-left__registrarse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/* --------------------------Acceder------------------------ */
+.main-acceder {
+  height: 100vh;
+  background-image: url("../images/contacto/background.png.png");
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+  text-align: center; }
+  .main-acceder h2 {
+    padding: 3rem; }
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  padding: 5rem; }
+
+/* --------------------------Cursos------------------------ */
+.nav-link {
+  color: white; }
+  .nav-link:hover {
+    animation-duration: 0.3s;
+    animation-name: hover; }
+
+@keyframes hover {
+  to {
+    transform: translateY(-10%); } }
+
+.footer {
+  position: relative; }
+
+.footer__cursos {
+  bottom: -100px; }
+
+/* --------------------------Footer------------------------ */
+@media screen and (max-width: 1200px) {
+  .footer__cursos, .footer__comunidad {
+    bottom: -500px; }
+  .footer__comunidad {
+    bottom: -300px; } }
+
+@media screen and (max-width: 800px) {
+  .footer__cursos {
+    bottom: -1200px; }
+  .footer__comunidad {
+    bottom: -800px; }
+  .footer__acceder {
+    bottom: -700px; }
+  .footer__registrarse {
+    bottom: -150px; } }
+
+/* --------------------------General------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Aleo", serif !important; }
+
+.background-index {
+  background-image: url("../images/index/background.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.container-background {
+  width: 80vw;
+  height: 75vh;
+  background-color: #cbcdcdb3;
+  border-radius: 10px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; }
+
+.container-left__index {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5rem; }
+
+.container-left__index {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "i1 i1 i1" "i2 i2 i2" "i3 i3 i3";
+  justify-items: center;
+  align-items: center;
+  margin-top: 2rem; }
