@@ -1,44 +1,46 @@
-
 @import "mixin";
 /* --------------------------Cursos------------------------ */
 
 .main-cursos {
-    background-image: url("../images/contacto/background.png.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .container-top {
-    @include justify-content-center;
-    gap: 3rem;
-    padding: 3rem;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .text-1 {
-    padding: 3rem;
-    background-color: white;
-    border-radius: 20%;
-  }
-  
-  .text-2 {
-    padding: 3rem;
-    background-color: white;
-    border-radius: 5%;
-  }
-  
-  .container-bottom {
-    @include justify-content-center;
-    padding: 2rem;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .text-container {
-    background-image: url("../images/contacto/background.png.png");
-    width: 350px;
-    padding: 3rem;
-  }
-  
+  background-image: url("../images/contacto/background.png.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-top {
+  @include justify-content-center;
+  gap: 3rem;
+  padding: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-1 {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 20%;
+}
+
+.text-2 {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.container-bottom {
+  @include justify-content-center;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  background-image: url("../images/contacto/background.png.png");
+  width: 350px;
+  padding: 3rem;
+}
+
+a {
+  text-decoration: none !important;
+}

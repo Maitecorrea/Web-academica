@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo:ital@1&display=swap");
 
-@import 'components/cursos';
-@import 'components/comunidad';
-@import 'components/registrarse';
-@import 'components/acceder';
-@import 'components/navbar';
-@import 'components/footer';
+@import "components/cursos";
+@import "components/comunidad";
+@import "components/registrarse";
+@import "components/acceder";
+@import "components/navbar";
+@import "components/footer";
 
 /* --------------------------General------------------------ */
 
@@ -43,19 +43,10 @@
   margin-left: 5rem;
 }
 
-
-
 .container-left__index {
-  display: grid;
-  // Create 3 rows and 1 column in each row
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-    "i1 i1 i1"
-    "i2 i2 i2"
-    "i3 i3 i3";
+  display: flex;
+  flex-direction: column;
   justify-items: center;
   align-items: center;
   margin-top: 2rem;
 }
-
